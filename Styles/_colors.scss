@@ -56,6 +56,7 @@ body>div:nth-of-type(even) {
     .person__shoes>* {
         background-color: $white;
     }
+
     #table {
         fill: $brown;
     }
@@ -68,7 +69,9 @@ body>div:nth-of-type(even) {
     .store__wall--right {
         // Pure CSS brick pattern trick found here: https://projects.verou.me/css3patterns/#bricks
         background-color: $white;
-        background-image: linear-gradient(335deg, $storeWallDark 23px, transparent 23px),
+        background-image: linear-gradient(335deg,
+                $storeWallDark 23px,
+                transparent 23px),
             linear-gradient(155deg, $storeWallLight 23px, transparent 23px),
             linear-gradient(335deg, $storeWallDark 23px, transparent 23px),
             linear-gradient(155deg, $storeWallLight 23px, transparent 23px);
@@ -130,6 +133,28 @@ body>div:nth-of-type(even) {
     .billy__hair {
         fill: none;
         stroke: $black;
+    }
+}
+
+.scene__container--4 {
+    .s4-guard__hand {
+        fill: $gray;
+        stroke: $black;
+    }
+
+    .s4-billy__head,
+    .s4-billy__body {
+        fill: $white;
+    }
+
+    .s4-billy__body,
+    .s4-billy__head,
+    .s4-billy__hair {
+        stroke: $black;
+    }
+
+    .s4-billy__hair {
+        fill: none;
     }
 }
 
